@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Animate</title>
+	  <meta charset="utf-8" />
+	  <meta name="viewport" content="initial-scale=1, minimal-ui" />
+	  <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+	  <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,400italic,700italic,700' rel='stylesheet' type='text/css'>
+	  <link rel="stylesheet" href="animate.css" />
+	  <link rel="stylesheet" href="style.css" /> 
+</head>
+<body>
+<header class="site__header island">
+  <div class="wrap">
+   <span id="animationSandbox" style="display: block;"><h1 class="site__title mega">AnimateIt !!</h1></span>
+  </div>
+</header>
+
+<main class="site__content island" role="content">
+  <div class="wrap">
+    <form>
+      <select class="input js--dropdown js--animations">
+        <optgroup label="Attention Seekers">
+          <option value="bounce">Bounce</option>
+          <option value="flash">Flash</option>
+        </optgroup>
+		<optgroup label="Fading Effects">
+			<option value="fadeIn">Fade in </option>
+			<option value="fadeInLeftBig">Fade in Left  Big </option>
+		<optgroup label="Special">
+			<option value="hinge">Hinge</option>
+		</optgroup>
+      </select>
+
+      <button class="butt js--triggerAnimation">Animate it</button>
+    </form>
+    
+</main>
+<script src="jquery-1.9.0.min.js"></script>
+<script src="animate.js"></script>
+
+</body>
+</html>
